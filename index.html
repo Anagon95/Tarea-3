@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="container mx-auto">
+        <form action="index2.html">
+            <fieldset class="border p-3">
+                <legend class="w-auto">Registro de producto</legend>
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-2">
+                        <label for="codigo" class="col-form-label">Codigo</label>
+                    </div>
+                    <div class="col">
+                        <input type="codigo" id="inputcodigo" class="form-control" aria-labelledby="codigo" required>
+                    </div>
+                </div>
+
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-2 ">
+                        <label for="descripcion" class="col-form-label">Descripcion</label>
+                    </div>
+                    <div class="col">
+                        <input type="descripcion" id="inputdescripcion" class="form-control"
+                            aria-labelledby="descripcion" required>
+                    </div>
+                </div>
+
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-2 ">
+                        <label for="cbarra" class="col-form-label">Codigo de Barra</label>
+                    </div>
+                    <div class="col">
+                        <input type="cbarra" id="inputcbarra" class="form-control" aria-labelledby="cbarra" required>
+                    </div>
+                </div>
+
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-2 ">
+                        <label for="punit" class="col-form-label">Precio Unitario</label>
+                    </div>
+                    <div class="col">
+                        <input type="punit" id="inputcbarra" class="form-control" aria-labelledby="punit" required>
+                    </div>
+                </div>
+
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-2 ">
+                        <label for="stock" class="col-form-label">Stock</label>
+                    </div>
+                    <div class="col">
+                        <input type="stock" id="inputstock" class="form-control" aria-labelledby="stock" required>
+                    </div>
+                </div>
+
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-2 ">
+                        <label for="prov" class="col-form-label">Proveedor</label>
+                    </div>
+                    <div class="col">
+                        <input type="prov" id="inputprov" class="form-control" aria-labelledby="prov" required>
+                    </div>
+                </div>
+
+                <div class="row g-3 align-items-center mb-3">
+                    <label for="estado" class="col-1 col-form-label">Estado:</label>
+                    <span class="col row g-3 align-items-center">
+                        <input type="checkbox" class="form-check-input" value="" id="estado" required>
+                    </span>
+                </div>
+
+                <div class="row g-3 align-items-center mb-3">
+                    <label for="categoria" class="col-2 col-form-label">Categoria:</label>
+                    <div class="col-0.50"></div>
+                    <select class="row g-3 align-items-center" aria-label="categorias" required>
+                        <label for="categoria" class="col-sm-3 col-form-label">Categoria:</label>
+                        <option selected>Categoria 1</option>
+                        <option value="1">Categoria 2</option>
+                        <option value="2">Categoria 3</option>
+                        <option value="3">Categoria 4</option>
+                    </select>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <button type="submit" class="btn btn-success">Guardar</button>
+                    <button type="reset" class="btn btn-warning">Cancelar</button>
+                </div>
+    </div>
+
+    </fieldset>
+    </form>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
